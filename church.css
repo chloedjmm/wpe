@@ -1,0 +1,29 @@
+body {
+    background-image: url("white.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: gray;
+    font-size: 25px;
+}
+
+a:hover {
+    color: black;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.item {
+    margin: 10px;
+}

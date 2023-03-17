@@ -1,0 +1,30 @@
+body {
+    background-image: url("white.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+.ab {
+    text-align: center;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    margin-left: 33%;
+
+}
+
+a {
+    font-size: 25px;
+    color: gray;
+}
+
+a:hover {
+    color: black
+}
